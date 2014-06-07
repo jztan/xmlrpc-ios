@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E8C150C12D69AB7006500C3 /* NSDataAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8C150812D69AB7006500C3 /* NSDataAdditions.h */; };
+		8E8C150D12D69AB7006500C3 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C150912D69AB7006500C3 /* NSDataAdditions.m */; };
+		8E8C150E12D69AB7006500C3 /* NSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8C150A12D69AB7006500C3 /* NSStringAdditions.h */; };
+		8E8C150F12D69AB7006500C3 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C150B12D69AB7006500C3 /* NSStringAdditions.m */; };
+		8E8C151112D69ACF006500C3 /* XMLRPCConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8C151012D69ACF006500C3 /* XMLRPCConnectionDelegate.h */; };
+		8E8C152012D69AF9006500C3 /* XMLRPCConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8C151212D69AF9006500C3 /* XMLRPCConnection.h */; };
+		8E8C152112D69AF9006500C3 /* XMLRPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C151312D69AF9006500C3 /* XMLRPCConnection.m */; };
+		8E8C152212D69AF9006500C3 /* XMLRPCConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8C151412D69AF9006500C3 /* XMLRPCConnectionManager.h */; };
+		8E8C152312D69AF9006500C3 /* XMLRPCConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C151512D69AF9006500C3 /* XMLRPCConnectionManager.m */; };
+		8E8C152412D69AF9006500C3 /* XMLRPCEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8C151612D69AF9006500C3 /* XMLRPCEncoder.h */; };
+		8E8C152512D69AF9006500C3 /* XMLRPCEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C151712D69AF9006500C3 /* XMLRPCEncoder.m */; };
+		8E8C152612D69AF9006500C3 /* XMLRPCEventBasedParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8C151812D69AF9006500C3 /* XMLRPCEventBasedParser.h */; };
+		8E8C152712D69AF9006500C3 /* XMLRPCEventBasedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C151912D69AF9006500C3 /* XMLRPCEventBasedParser.m */; };
+		8E8C152812D69AF9006500C3 /* XMLRPCEventBasedParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8C151A12D69AF9006500C3 /* XMLRPCEventBasedParserDelegate.h */; };
+		8E8C152912D69AF9006500C3 /* XMLRPCEventBasedParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C151B12D69AF9006500C3 /* XMLRPCEventBasedParserDelegate.m */; };
+		8E8C152A12D69AF9006500C3 /* XMLRPCRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8C151C12D69AF9006500C3 /* XMLRPCRequest.h */; };
+		8E8C152B12D69AF9006500C3 /* XMLRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C151D12D69AF9006500C3 /* XMLRPCRequest.m */; };
+		8E8C152C12D69AF9006500C3 /* XMLRPCResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8C151E12D69AF9006500C3 /* XMLRPCResponse.h */; };
+		8E8C152D12D69AF9006500C3 /* XMLRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C151F12D69AF9006500C3 /* XMLRPCResponse.m */; };
+		AA747D9F0F9514B9006C5449 /* XMLRPC_iOS_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* XMLRPC_iOS_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E8C150812D69AB7006500C3 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		8E8C150912D69AB7006500C3 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		8E8C150A12D69AB7006500C3 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		8E8C150B12D69AB7006500C3 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
+		8E8C151012D69ACF006500C3 /* XMLRPCConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnectionDelegate.h; sourceTree = "<group>"; };
+		8E8C151212D69AF9006500C3 /* XMLRPCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnection.h; sourceTree = "<group>"; };
+		8E8C151312D69AF9006500C3 /* XMLRPCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCConnection.m; sourceTree = "<group>"; };
+		8E8C151412D69AF9006500C3 /* XMLRPCConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnectionManager.h; sourceTree = "<group>"; };
+		8E8C151512D69AF9006500C3 /* XMLRPCConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCConnectionManager.m; sourceTree = "<group>"; };
+		8E8C151612D69AF9006500C3 /* XMLRPCEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEncoder.h; sourceTree = "<group>"; };
+		8E8C151712D69AF9006500C3 /* XMLRPCEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCEncoder.m; sourceTree = "<group>"; };
+		8E8C151812D69AF9006500C3 /* XMLRPCEventBasedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEventBasedParser.h; sourceTree = "<group>"; };
+		8E8C151912D69AF9006500C3 /* XMLRPCEventBasedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCEventBasedParser.m; sourceTree = "<group>"; };
+		8E8C151A12D69AF9006500C3 /* XMLRPCEventBasedParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEventBasedParserDelegate.h; sourceTree = "<group>"; };
+		8E8C151B12D69AF9006500C3 /* XMLRPCEventBasedParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCEventBasedParserDelegate.m; sourceTree = "<group>"; };
+		8E8C151C12D69AF9006500C3 /* XMLRPCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCRequest.h; sourceTree = "<group>"; };
+		8E8C151D12D69AF9006500C3 /* XMLRPCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCRequest.m; sourceTree = "<group>"; };
+		8E8C151E12D69AF9006500C3 /* XMLRPCResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCResponse.h; sourceTree = "<group>"; };
+		8E8C151F12D69AF9006500C3 /* XMLRPCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCResponse.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* XMLRPC_iOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPC_iOS_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libXMLRPC_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXMLRPC_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libXMLRPC_iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* XMLRPC-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = "XMLRPC-iOS";
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E8C150112D69A87006500C3 /* Additions */,
+				8E8C150212D69A93006500C3 /* Delegates */,
+				8E8C151212D69AF9006500C3 /* XMLRPCConnection.h */,
+				8E8C151312D69AF9006500C3 /* XMLRPCConnection.m */,
+				8E8C151412D69AF9006500C3 /* XMLRPCConnectionManager.h */,
+				8E8C151512D69AF9006500C3 /* XMLRPCConnectionManager.m */,
+				8E8C151612D69AF9006500C3 /* XMLRPCEncoder.h */,
+				8E8C151712D69AF9006500C3 /* XMLRPCEncoder.m */,
+				8E8C151812D69AF9006500C3 /* XMLRPCEventBasedParser.h */,
+				8E8C151912D69AF9006500C3 /* XMLRPCEventBasedParser.m */,
+				8E8C151A12D69AF9006500C3 /* XMLRPCEventBasedParserDelegate.h */,
+				8E8C151B12D69AF9006500C3 /* XMLRPCEventBasedParserDelegate.m */,
+				8E8C151C12D69AF9006500C3 /* XMLRPCRequest.h */,
+				8E8C151D12D69AF9006500C3 /* XMLRPCRequest.m */,
+				8E8C151E12D69AF9006500C3 /* XMLRPCResponse.h */,
+				8E8C151F12D69AF9006500C3 /* XMLRPCResponse.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* XMLRPC_iOS_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		8E8C150112D69A87006500C3 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				8E8C150812D69AB7006500C3 /* NSDataAdditions.h */,
+				8E8C150912D69AB7006500C3 /* NSDataAdditions.m */,
+				8E8C150A12D69AB7006500C3 /* NSStringAdditions.h */,
+				8E8C150B12D69AB7006500C3 /* NSStringAdditions.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		8E8C150212D69A93006500C3 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8E8C151012D69ACF006500C3 /* XMLRPCConnectionDelegate.h */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* XMLRPC_iOS_Prefix.pch in Headers */,
+				8E8C150C12D69AB7006500C3 /* NSDataAdditions.h in Headers */,
+				8E8C150E12D69AB7006500C3 /* NSStringAdditions.h in Headers */,
+				8E8C151112D69ACF006500C3 /* XMLRPCConnectionDelegate.h in Headers */,
+				8E8C152012D69AF9006500C3 /* XMLRPCConnection.h in Headers */,
+				8E8C152212D69AF9006500C3 /* XMLRPCConnectionManager.h in Headers */,
+				8E8C152412D69AF9006500C3 /* XMLRPCEncoder.h in Headers */,
+				8E8C152612D69AF9006500C3 /* XMLRPCEventBasedParser.h in Headers */,
+				8E8C152812D69AF9006500C3 /* XMLRPCEventBasedParserDelegate.h in Headers */,
+				8E8C152A12D69AF9006500C3 /* XMLRPCRequest.h in Headers */,
+				8E8C152C12D69AF9006500C3 /* XMLRPCResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* XMLRPC-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "XMLRPC-iOS" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMLRPC-iOS";
+			productName = "XMLRPC-iOS";
+			productReference = D2AAC07E0554694100DB518D /* libXMLRPC_iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "XMLRPC-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* XMLRPC-iOS */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* XMLRPC-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8C150D12D69AB7006500C3 /* NSDataAdditions.m in Sources */,
+				8E8C150F12D69AB7006500C3 /* NSStringAdditions.m in Sources */,
+				8E8C152112D69AF9006500C3 /* XMLRPCConnection.m in Sources */,
+				8E8C152312D69AF9006500C3 /* XMLRPCConnectionManager.m in Sources */,
+				8E8C152512D69AF9006500C3 /* XMLRPCEncoder.m in Sources */,
+				8E8C152712D69AF9006500C3 /* XMLRPCEventBasedParser.m in Sources */,
+				8E8C152912D69AF9006500C3 /* XMLRPCEventBasedParserDelegate.m in Sources */,
+				8E8C152B12D69AF9006500C3 /* XMLRPCRequest.m in Sources */,
+				8E8C152D12D69AF9006500C3 /* XMLRPCResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/XMLRPC_iOS.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XMLRPC_iOS_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = XMLRPC_iOS;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/XMLRPC_iOS.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XMLRPC_iOS_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = XMLRPC_iOS;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "XMLRPC-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "XMLRPC-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
