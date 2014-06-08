@@ -41,7 +41,7 @@ static char base64EncodingTable[64] = {
     return [NSMakeCollectable(temporaryUUIDString) autorelease];
 }
 
-+ (NSString *)base64StringFromData: (NSData *)data length: (int)length {
++ (NSString *)base64StringFromData: (NSData *)data length: (NSUInteger)length {
     unsigned long ixtext, lentext;
     long ctremaining;
     unsigned char input[3], output[4];
