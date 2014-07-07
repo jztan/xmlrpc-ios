@@ -1,0 +1,13 @@
+- xmlrpc-framework
+
+v1.0.0
+------------------------------------------------------------
+- 2014-06-08
+------------------------------------------------------------
+.: FEATURE: Added support for 64 bit architecture
+.: DEVELOP: Make use of relative path for xmlrpc-framework
+
+------------------------------------------------------------
+- 2014-06-07
+------------------------------------------------------------
+.: APP: Init for project (jztan <jingzheng.tan@gmail.com>)
