@@ -8,24 +8,19 @@ Extra code, test client and server, and unit tests have been removed for ease of
 
 # Usage
 
-Invoking an XML-RPC request through the XML-RPC connection manager is easy:
+## Invoking an XML-RPC request through the XML-RPC connection manager is easy:
 
-{{{
-#!objective-c
-
-NSURL *URL = [NSURL URLWithString: @"http://127.0.0.1:8080/"];	
-XMLRPCRequest *request = [[XMLRPCRequest alloc] initWithURL: URL];
-XMLRPCConnectionManager *manager = [XMLRPCConnectionManager sharedManager];
-
-[request setMethod: @"Echo.echo" withParameter: @"Hello World!"];
-
-NSLog(@"Request body: %@", [request body]);
-
-[manager spawnConnectionWithXMLRPCRequest: request delegate: self];
-
-[request release];
-}}}
--
+    NSURL *URL = [NSURL URLWithString: @"http://127.0.0.1:8080/"];	
+    XMLRPCRequest *request = [[XMLRPCRequest alloc] initWithURL: URL];
+    XMLRPCConnectionManager *manager = [XMLRPCConnectionManager sharedManager];
+    
+    [request setMethod: @"Echo.echo" withParameter: @"Hello World!"];
+    
+    NSLog(@"Request body: %@", [request body]);
+    
+    [manager spawnConnectionWithXMLRPCRequest: request delegate: self];
+    
+    [request release];
 
 This spawns a new XML-RPC connection, assigning that connection with a unique
 identifier and returning it to the sender. This unique identifier, a UUID
@@ -36,53 +31,35 @@ The XML-RPC connection manager has been designed to ease the management of
 active XML-RPC connections. For example, the following method obtains an NSArray
 of active XML-RPC connection identifiers:
 
-{{{
-#!objective-c
-
-- (NSArray*)activeConnectionIdentifiers;
-}}}
--
+    - (NSArray*)activeConnectionIdentifiers;
 
 The NSArray returned by this method contains a list of each active connection
 identifier. Provided with a connection identifier, the following method will
 return an instance of the requested XML-RPC connection:
 
-{{{
-#!objective-c
-
-- (XMLRPCConnection*)connectionForIdentifier:(NSString*)connectionIdentifier;
-}}}
--
+    - (XMLRPCConnection*)connectionForIdentifier:(NSString*)connectionIdentifier;
 
 Finally, for a delegate to receive XML-RPC responses, authentication challenges,
 or errors, the XMLRPCConnectionDelegate protocol must be implemented. For
 example, the following will handle successful XML-RPC responses:
-{{{
-#!objective-c
 
-- (void)request:(XMLRPCRequest*)request didReceiveResponse:(XMLRPCResponse*)response
-{
-    NSLog(@"Response body: %@", [response body]);
-}
-}}}
--
+    - (void)request:(XMLRPCRequest*)request didReceiveResponse:(XMLRPCResponse*)response
+    {
+        NSLog(@"Response body: %@", [response body]);
+    }
 
 Refer to XMLRPCConnectionDelegate.h for a full list of methods a delegate must
 implement. Each of these delegate methods plays a role in the life of an active
 XML-RPC connection.
 
-===Sending synchronous XML-RPC requests===
+## Sending synchronous XML-RPC requests
 
 There are situations where it may be desirable to invoke XML-RPC requests
 synchronously in another thread or background process. The following method
 declared in XMLRPCConnection.h will invoke an XML-RPC request synchronously:
 
-{{{
-#!objective-c
 
-+ (XMLRPCResponse*)sendSynchronousXMLRPCRequest:(XMLRPCRequest*)request error:(NSError**)error;
-}}}
--
+    + (XMLRPCResponse*)sendSynchronousXMLRPCRequest:(XMLRPCRequest*)request error:(NSError**)error;
 
 If there is a problem sending the XML-RPC request expect nil to be returned.
 
