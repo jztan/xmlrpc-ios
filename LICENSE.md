@@ -2,6 +2,7 @@
 
 ## The Cocoa Touch XML-RPC Framework is distributed under the MIT License:
 
+Copyright (c) 2014 jztan <![alt tag](https://sites.google.com/site/jingzhengtan/jingzheng.tan.png)>
 Copyright (c) 2011 Dallas Brown <dallas@mokinetworks.com>
 Copyright (c) 2010 Eric Czarny <eczarny@gmail.com>
 

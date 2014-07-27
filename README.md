@@ -1,4 +1,4 @@
-==The Cocoa Touch XML-RPC Framework==
+# The Cocoa XML-RPC Framework
 
 The Cocoa Touch XML-RPC Framework is a simple, and lightweight, XML-RPC client
 framework written in Objective-C for use on iOS devices.
@@ -6,17 +6,7 @@ This project was forked off of Eric Czarny's XMLRPC project, which can be locate
 
 Extra code, test client and server, and unit tests have been removed for ease of conversion, but may be re-integrated based on users needs/wants.
 
-===Requirements===
-
-The Cocoa Touch XML-RPC Framework has been built, and designed, for iOS 4.0 or
-later.
-
-This version of the Cocoa Touch XML-RPC Framework includes a new event-based XML
-parser. The previous tree-based XML parser still exists, but is no longer the
-default XML-RPC response parser nor included in the Xcode build. This should
-hopefully provide better compatibility with the iPhone SDK.
-
-===Usage===
+# Usage
 
 Invoking an XML-RPC request through the XML-RPC connection manager is easy:
 
@@ -96,7 +86,7 @@ declared in XMLRPCConnection.h will invoke an XML-RPC request synchronously:
 
 If there is a problem sending the XML-RPC request expect nil to be returned.
 
-===Acknowledgments===
+# Acknowledgments
 
 The origins of this library come from Eric Czarny's XMLRPC code shared on GitHub.
 
@@ -106,8 +96,9 @@ been adapted from code provided by Dave Winer.
 The idea for this framework came from examples provided by Brent Simmons, the
 creator of NetNewsWire.
 
-===License===
+# License
 
+Copyright (c) 2014 Jztan.
 Copyright (c) 2011 Dallas Brown.
 Copyright (c) 2010 Eric Czarny.
 
