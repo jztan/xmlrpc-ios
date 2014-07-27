@@ -247,6 +247,7 @@
 				GCC_PREFIX_HEADER = XMLRPC_iOS_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = XMLRPC_iOS;
 			};
 			name = Debug;
@@ -261,6 +262,7 @@
 				GCC_PREFIX_HEADER = XMLRPC_iOS_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = XMLRPC_iOS;
 				VALID_ARCHS = "i386 x86_64 armv7 armv7s arm64";
 			};
